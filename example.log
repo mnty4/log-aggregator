@@ -1,0 +1,8 @@
+invalid log format
+invalidLogFormat
+2025-01-02 15:03:05 IngestorService WARN line 1
+2025-01-02 15:04:05 ProcessorService ERROR line 2
+2025-01-02 15:05:05 ProcessorService ERROR line 8
+2025-01-02 14:04:05 IngestorService INFO line 3
+2025-01-02 15:04:15 IngestorService INFO line 3
+2025-01-02 15:05:05 ProcessorService ERROR line 2
