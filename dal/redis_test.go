@@ -9,8 +9,6 @@ import (
 )
 
 func Test_Increment(t *testing.T) {
-	//ProdRedisClient{}
-	//Increment
 	output := []string{}
 	client := ProdRedisClient{client: &mockInternalRedisClient{IncrFn: func(ctx context.Context, key string) *redis.IntCmd {
 		output = append(output, key)
